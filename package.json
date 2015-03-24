@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/alu0100288216/PL_analizadorLexico/issues"
   },
-  "homepage": "https://github.com/alu0100288216/PL_analizadorLexico"
+  "homepage": "https://github.com/alu0100288216/PL_analizadorLexico",
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1"
+  }
 }

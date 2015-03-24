@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lexical Analysis Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mocha.css" />
+
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="chai.js"></script>
+    <script src="mocha.js"></script>
+
+    <script type="text/javascript" src="../main.js"></script>
+    <script type="text/javascript" src="../loadFiles.js"></script>
+    <script type="text/javascript" src="../tokens.js"></script>
+    <script type="text/javascript" src="../parse.js"></script>
+
+    <script>mocha.setup('tdd')</script>
+    <script src="tests.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
