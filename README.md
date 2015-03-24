@@ -23,6 +23,6 @@ Autores:
 
 [Adrián Calzadilla González (alu0100288216)](http://alu0100288216.github.io/)
 
-[Kevin Martín Chinea (alu0100774665)]((http://alu0100774665.github.io/)
+[Kevin Martín Chinea (alu0100774665)](http://alu0100774665.github.io/)
 
 ---
