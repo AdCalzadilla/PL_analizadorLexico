@@ -1,0 +1,23 @@
+{
+  "name": "PL_analizadorLexico",
+  "version": "1.0.0",
+  "description": "Analizador léxico y/o analizador lexicográfico",
+  "main": "index.html",
+  "scripts": {
+    "test": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100288216/PL_analizadorLexico.git"
+  },
+  "keywords": [
+    "Analizador",
+    "Léxico"
+  ],
+  "author": "Adrián Calzadilla González, Kevin Martín Chinea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alu0100288216/PL_analizadorLexico/issues"
+  },
+  "homepage": "https://github.com/alu0100288216/PL_analizadorLexico"
+}
