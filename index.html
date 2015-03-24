@@ -5,7 +5,10 @@
    <link href="global.css" rel="stylesheet" type="text/css">
    <script src="parse.js"></script>
    <script src="tokens.js"></script>
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+
 
    <script src="main.js"></script>
 
@@ -23,15 +26,10 @@
   <textarea id="INPUT"></textarea>
   <br>
 
-  <script>
-    function dump(fileName) {
-        $.get(fileName, function (data) {
-            $("#INPUT").load(data);
-        });
-    };
-  </script>
-
   <p> <input type="file" id="files"/> </p>
+
+  <script>
+  </script>
 
   <div style="display:inline">
     <button id ="input2" type="button" onclick="dump('example/input2.txt');">input2</button>
@@ -39,21 +37,6 @@
     <button id ="hello"  type="button" onclick="dump('example/hello.txt');">hello</button>
   </div>
 
-  <script type="text/javascript">
-    document.getElementById('files').addEventListener('change', CopyMe, false);
-
-    function CopyMe(evt) {
-        var file = evt.target.files[0];
-        if (file) {
-                var reader = new FileReader();
-                reader.onload = function(e) {
-                          INPUT.innerHTML = e.target.result;
-                        }
-                var c = reader.readAsText(file);
-            }
-        else { alert("Failed to load file"); }
-    }
-  </script>
 
   <br>
   <input id="PARSE" value=parse type=button class="mylink">
@@ -66,4 +49,5 @@
    </nav>
  </p>
 </body>
+<script src="loadFiles.js"></script>
 </html>
