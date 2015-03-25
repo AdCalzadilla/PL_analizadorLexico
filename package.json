@@ -32,6 +32,7 @@
     "gulp-uglify": "^1.1.0",
     "gulp-util": "^3.0.4",
     "karma": "^0.12.31",
+<<<<<<< HEAD
     "mocha": "^2.2.1",
     "karma": "^0.12.31",
     "karma-chai": "^0.1.0",
@@ -41,5 +42,15 @@
     "karma-phantomjs-launcher": "^0.1.4",
     "mocha": "^2.2.1",
     "phantomjs": "^1.9.16"
+=======
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.3",
+    "express-ejs-layouts": "^1.1.0",
+    "jquery": "^2.1.3",
+    "underscore": "^1.8.2"
+>>>>>>> Cambios heroku
   }
 }
