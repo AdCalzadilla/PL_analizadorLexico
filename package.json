@@ -4,7 +4,7 @@
   "description": "Analizador léxico y/o analizador lexicográfico",
   "main": "index.html",
   "scripts": {
-    "test": "open index.html"
+    "test": "open tests/index.html"
   },
   "repository": {
     "type": "git",
