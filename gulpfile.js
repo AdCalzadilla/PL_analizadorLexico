@@ -41,3 +41,10 @@ gulp.task('test', function() {
              throw err;
            });
 });
+
+gulp.task('default', ['server']);
+
+// npm install supervisor -g
+gulp.task('server', function () {
+  return gulp.src('').pipe(shell([ 'node-supervisor app.js' ]));
+});

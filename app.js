@@ -19,3 +19,7 @@ app.use(express.static(__dirname + '/'));
 app.get('/', function (req, res) {
   res.render('index', { title: 'Analizador Léxico' });
 })
+
+app.listen(app.get('port'), function () {
+    console.log("Node app is running at localhost:" + app.get('port'));
+});
