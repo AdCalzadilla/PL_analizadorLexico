@@ -9,7 +9,7 @@ var minifyCSS  = require('gulp-minify-css');
 var shell = require('gulp-shell');
 
 gulp.task('minify', function () {
-  gulp.src('csv.js')
+  gulp.src('tokens.js')
   .pipe(uglify())
   .pipe(gulp.dest('minified'))
 
