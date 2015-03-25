@@ -4,7 +4,7 @@
   "description": "Analizador léxico y/o analizador lexicográfico",
   "main": "index.html",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run"
+    "test": "./node_modules/karma/bin/karma start"
   },
   "repository": {
     "type": "git",
