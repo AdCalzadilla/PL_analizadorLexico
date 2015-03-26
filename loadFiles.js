@@ -46,7 +46,13 @@ function handleFileSelect(evt) {
 }
 
 function dump(fileName) {
-    $.get(fileName, function (data) {
-        $("#INPUT").load(data);
-    });
+        $.ajax({
+          url : fileName,
+                dataType: "text",
+                success : function (data) {
+            $("#INPUT").val(data);
+            // Si el navegador soporta localStore almacenamos en el localStorage los datos introducidos
+            if (window.localStorage) {localStorage.original = data;}
+                }
+            });
 };
