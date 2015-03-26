@@ -9,13 +9,14 @@
 
 ---
 
-Travis
+[Travis](https://travis-ci.org/alu0100288216/PL_analizadorLexico/builds/55891410)
 
-Heruku
 
-Gh-pages
+[Heruku](http://al-pl.herokuapp.com/)
 
-Test
+[Gh-pages](http://alu0100288216.github.io/PL_analizadorLexico/)
+
+[Test](http://al-pl.herokuapp.com/tests/index.html)
 
 ---
 
